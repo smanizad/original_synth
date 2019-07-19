@@ -52,13 +52,13 @@ First, familiarize yourself with [how the electrical connections on a breadboard
 
 ### Step 1: The Button Circuit
 
-
-
 The basic unit of Original Synth is the button circuit. The basic circuit is a button, a 330-Ohm resistor for that button, and an LED between the two. The LED will light when you press the button.
 
 [ BASIC BUTTON DIAGRAM GOES HERE ]
 
 Repeat this pattern six times, starting at the far left of your breadboard.
+
+[PICTURE OF ALL 6 BUTTONS]
 
 **NOTE:** The button is set up across the big gap in the middle of the breadboard so that it's easier to press without wires getting in the way later.
 
@@ -66,3 +66,29 @@ Repeat this pattern six times, starting at the far left of your breadboard.
 
   1. Try to use ![RED](https://placehold.it/15/f03c15/000000?text=+) `RED` (and other 'warm'-colored) wires for connections to the  ![+](https://placehold.it/15/f03c15/000000?text=+) `+` (positive voltage) row on the breadboard - this will make it easier to keep track of what wire goes where.
   2. In addition, try to use  ![BLUE](https://placehold.it/15/1589F0/000000?text=+) `BLUE` (or green, or black) wires for connections to components that ultimately go to the ![-](https://placehold.it/15/1589F0/000000?text=+) `-` (ground) row on the breadboard.
+
+
+### Step 2: The Headphone Jack circuit
+
+This unit allows you to listen to the synth. Use the smaller breadboard included with the kit.
+
+[IMAGE OF SMALLER BREADBOARD]
+
+In order to filter out high-pitched noises that happen when you're synthesizing tones on an Arduino you must construct a [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter).
+
+For Mozzi in particular, the output signals come from digital pins 9 & 10 on the Arduino Uno.
+For more on the headphone circuit, refer to the documentation [here](https://github.com/sensorium/Mozzi/wiki/Output-circuits,-filters,-amplifiers,-etc.-(*-this-has-content)
+
+Instead of a 1 Mega-Ohm resistor (recommended on the page) you should use two 1 Mega-Ohm resistors (from the kit) in parallel to create an equivalent 500 Kilo-Ohm resistance. For more information on resistance & resistors see [here](https://www.khanacademy.org/science/ap-physics-1/ap-circuits-topic/series-circuits-ap/v/ee-series-resistors).
+
+Instead of a 3.9 Kilo-Ohm resistor you should use 2 2 Kilo-Ohm resistors in series to creat a 4 Kilo-Ohm equivalent resistance.
+
+[PICTURE OF RESISTORS ON THE SMALL BREADBOARD]
+
+Next, connect the terminal ends of both sets of resistors to your 4.7nF capacitor. This circuit will now protect your ears from troublesome high-frequency noise.
+
+[PICTURE OF HEADPHONE JACK CIRCUIT WITH CAPACITOR ADDED]
+
+Next, install the headphone jack on the breadboard and connect the ground (black) and signal (yellow) wires as shown.
+
+[PICTURE OF HEADPHONE JACK CIRCUIT WITH HEADPHONE JACK COMPONENT WIRED UP]
