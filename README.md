@@ -1,7 +1,7 @@
 Reference-style:
 ![alt-text][logo]
 
-[logo]: https://github.com/smanizad/original_synth/images/os.jpg "O R I G I N A L  S Y N T H"
+[logo]: https://github.com/smanizad/original_synth/raw/master/images/os.jpg "O R I G I N A L  S Y N T H"
 # original_synth
 This describes how to build and program an Arduino-Uno-style, polyphonic, pentatonic synthesizer.
 Original Synth (OS) is designed to be cheap, customizable, and marginally entertaining.
