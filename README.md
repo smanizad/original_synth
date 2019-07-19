@@ -42,3 +42,25 @@ In order to speed up the setup process, the Mozzi library as of 19 July 2019 is 
 Once this step is completed, you should be able to view example Mozzi sketches using the File>Examples>Mozzi dropdown tabs.
 
 The final test: open *osynth.ino* and attempt to compile it (click the checkmark in the IDE) - if it compiles without error (i.e. there's not a flood of orange text) then you've got Mozzi installed!
+
+
+## Building the Original Synthesizer
+
+[Coming Soon: Circuit Diagrams]
+
+First, familiarize yourself with [how the electrical connections on a breadboard work](http://wiring.org.co/learning/tutorials/breadboard/)
+
+### Step 1: The Button Circuit
+
+
+
+The basic unit of Original Synth is the button circuit. The basic circuit is a button, a 330-Ohm resistor for that button, and an LED between the two. The LED will light when you press the button.
+
+[ BASIC BUTTON DIAGRAM GOES HERE ]
+
+Repeat this pattern six times, starting at the far left of your breadboard.
+
+**NOTE:** The button is set up across the big gap in the middle of the breadboard
+**NOTE:** Wire Colors
+
+Try to use ![RED](https://placehold.it/15/f03c15/000000?text=+) `RED` (and other 'warm'-colored) wires for connections to the  ![+](https://placehold.it/15/f03c15/000000?text=+) `+` (positive voltage) row on the breadboard - this will make it easier to keep track of what wire goes where. In addition, try to use - ![BLUE](https://placehold.it/15/1589F0/000000?text=+) `BLUE` (or green, or black) wires for connections to components that ultimately go to the ![-](https://placehold.it/15/1589F0/000000?text=+) `-` (ground) row on the breadboard.
