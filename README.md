@@ -60,7 +60,9 @@ The basic unit of Original Synth is the button circuit. The basic circuit is a b
 
 Repeat this pattern six times, starting at the far left of your breadboard.
 
-**NOTE:** The button is set up across the big gap in the middle of the breadboard
-**NOTE:** Wire Colors
+**NOTE:** The button is set up across the big gap in the middle of the breadboard so that it's easier to press without wires getting in the way later.
 
-Try to use ![RED](https://placehold.it/15/f03c15/000000?text=+) `RED` (and other 'warm'-colored) wires for connections to the  ![+](https://placehold.it/15/f03c15/000000?text=+) `+` (positive voltage) row on the breadboard - this will make it easier to keep track of what wire goes where. In addition, try to use - ![BLUE](https://placehold.it/15/1589F0/000000?text=+) `BLUE` (or green, or black) wires for connections to components that ultimately go to the ![-](https://placehold.it/15/1589F0/000000?text=+) `-` (ground) row on the breadboard.
+**NOTE:** Wire Colors:
+
+  1. Try to use ![RED](https://placehold.it/15/f03c15/000000?text=+) `RED` (and other 'warm'-colored) wires for connections to the  ![+](https://placehold.it/15/f03c15/000000?text=+) `+` (positive voltage) row on the breadboard - this will make it easier to keep track of what wire goes where.
+  2. In addition, try to use  ![BLUE](https://placehold.it/15/1589F0/000000?text=+) `BLUE` (or green, or black) wires for connections to components that ultimately go to the ![-](https://placehold.it/15/1589F0/000000?text=+) `-` (ground) row on the breadboard.
