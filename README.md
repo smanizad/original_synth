@@ -34,4 +34,11 @@ Get Arduino set up and running on your computer. Follow the instructions [here](
 
 Open the IDE. Try some of the examples from the File>Examples tab first to confirm that your setup is working.
 
-**2) Setting up the Libraries**
+**2) Setting up the Synthesizer Library (mozzi)**
+
+[Mozzi](https://sensorium.github.io/Mozzi/) is a fantastic synthesizer library that Original Synth relies on heavily.
+In order to speed up the setup process, the Mozzi library as of 19 July 2019 is included in this repository. In order to use it, copy the *mozzi* directory and all of its contents located in this repository's *arduino_libraries* to your Arduino 'libraries' directory (the location of which depends on your installation process - look for the directory where you installed the Arduion IDE).
+
+Once this step is completed, you should be able to view example Mozzi sketches using the File>Examples>Mozzi dropdown tabs.
+
+The final test: open *osynth.ino* and attempt to compile it (click the checkmark in the IDE) - if it compiles without error (i.e. there's not a flood of orange text) then you've got Mozzi installed!
