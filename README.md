@@ -10,6 +10,7 @@ Original Synth (OS) is designed to be cheap, customizable, and marginally entert
 ### Materials
 #### Hardware
 This project is designed for an Arduino kit plus a few accessories.
+
 [Arduino Kit](https://www.amazon.com/ELEGOO-Project-Starter-Tutorial-Arduino/dp/B01D8KOZF4/ref=sr_1_3?keywords=elegoo+uno&qid=1563512117&s=gateway&sr=8-3) est. $35
 
 [4.7nF Capacitor](https://www.galco.com/buy/NTE-Electronics/90310?source=googleshopping&utm_source=adwords&utm_campaign=&gclid=CjwKCAjwscDpBRBnEiwAnQ0HQP8t1jy9nY558hPhLuSPOiITvfzZlcQIXhWJYI10von2RAwYybtaGBoCgN8QAvD_BwE) est. $0.40
@@ -21,7 +22,7 @@ This project is designed for an Arduino kit plus a few accessories.
 
 Headphones: Wherever you can find a pair, or use a set of computer speakers.  (worst case: 50 cents / pair of headphones)
 
-**Estimated Total Cost:** $38.85
+**Estimated Total Cost:** $39.35
 
 
 #### Software
