@@ -77,7 +77,7 @@ This unit allows you to listen to the synth. Use the smaller breadboard included
 In order to filter out high-pitched noises that happen when you're synthesizing tones on an Arduino you must construct a [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter).
 
 For Mozzi in particular, the output signals come from digital pins 9 & 10 on the Arduino Uno.
-For more on the headphone circuit, refer to the documentation [here](https://github.com/sensorium/Mozzi/wiki/Output-circuits,-filters,-amplifiers,-etc.-(*-this-has-content)
+For more on the headphone circuit, refer to the documentation [here]("https://github.com/sensorium/Mozzi/wiki/Output-circuits,-filters,-amplifiers,-etc.-(*-this-has-content")
 
 Instead of a 1 Mega-Ohm resistor (recommended on the page) you should use two 1 Mega-Ohm resistors (from the kit) in parallel to create an equivalent 500 Kilo-Ohm resistance. For more information on resistance & resistors see [here](https://www.khanacademy.org/science/ap-physics-1/ap-circuits-topic/series-circuits-ap/v/ee-series-resistors).
 
