@@ -180,7 +180,11 @@ void updateControl(){
     if (effects == 0) {
       effects = 1;
     }else if (effects == 1) { // tremolo
-      effects = 2; 
+      if (tri) { // effect 2 is not currently supported for tri
+        effects = 0;
+      }else {
+        effects = 2; 
+      }
     }else if (effects == 2) {
       effects = 0;
     } // add states as necessary for additional effects
@@ -363,7 +367,7 @@ int updateAudio(){
                         + aTri2.next() 
                         + aTri3.next() 
                         + aTri4.next() 
-                        //+ aTri5.next()
+                        + aTri5.next()
                         ) 
                 ) << 4;
       }
